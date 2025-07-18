@@ -101,11 +101,11 @@ const ContactSection = () => {
                 <div className="mt-8">
                   <h4 className="text-sm text-gray-400 mb-3">Social Media</h4>
                   <div className="flex space-x-4">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/dvarunmudiraj" target="_blank" rel="noopener noreferrer" 
                       className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-neon-purple/20 hover:text-neon-purple transition-all">
                       <Github size={20} />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://linkedin.com/in/d-varun-url" target="_blank" rel="noopener noreferrer" 
                       className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-neon-blue/20 hover:text-neon-blue transition-all">
                       <Linkedin size={20} />
                     </a>
