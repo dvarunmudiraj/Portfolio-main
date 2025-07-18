@@ -115,6 +115,21 @@ const ProjectCard = ({ project, index }: { project: ProjectProps; index: number 
 const ProjectsSection = () => {
   const projects: ProjectProps[] = [
     {
+  title: "Scalable URL Shortener with Analytics",
+  description: "Built a scalable full-stack URL shortener with real-time click analytics and admin-approved user access control.",
+  period: "JUL 2025",
+  role: "Full Stack Dev",
+  keyPoints: [
+    "Implemented secure JWT-based login/signup with role-based access (admin/user).",
+    "Tracked user click activity with real-time analytics and Redis caching.",
+    "Developed responsive frontend using TypeScript, Vite, and Tailwind CSS.",
+    "Optimized backend using Spring Boot, MySQL, and Redis for scalability."
+  ],
+  technologies: ["Spring Boot", "Java", "MySQL", "Redis", "TypeScript", "React", "Tailwind CSS", "JWT"],
+  github: "https://github.com/dvarunmudiraj/Scalable-URL-Shortener-with-Analytics",
+  demo: "https://url-customize.vercel.app"
+},
+    {
       title: "Portable Object Detection in Real-Time",
       description: "Implemented real-time object detection using YOLOv5 on live webcam streams.",
       period: "DEC 2024 - FEB 2025",
@@ -124,8 +139,8 @@ const ProjectsSection = () => {
         "Focused on memory and latency optimization for standard laptops.",
       ],
       technologies: ["Python", "OpenCV", "YOLOv5", "NumPy"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      github: "https://github.com/dvarunmudiraj/Portable-Object-Detection",
+      demo: "https://vobjdetect.vercel.app/"
     },
     {
       title: "Faculty Presence Detection in Real-Time",
@@ -137,21 +152,9 @@ const ProjectsSection = () => {
         "Enabled live detection through system webcam; no external hardware required.",
       ],
       technologies: ["Python", "OpenCV", "NumPy"],
-      github: "https://github.com",
+      github: "https://github.com/dvarunmudiraj/Faculty-Presence-Detection-and-Alert-System",
     },
-    {
-      title: "Task Scheduling Application",
-      description: "Designed a responsive task management application using Java and JDBC with a SQL database backend.",
-      period: "JUN 2024 - JUL 2024",
-      role: "Full Stack Dev",
-      keyPoints: [
-        "Enhanced data organization with drag-and-drop prioritization of task views.",
-        "Enhanced usability with a responsive UI adaptable to mobile and desktop browsers.",
-      ],
-      technologies: ["Java", "JDBC", "SQL", "JavaScript", "HTML/CSS"],
-      github: "https://github.com",
-      demo: "https://demo.com"
-    },
+,
     {
       title: "Image Classification Using CNN",
       description: "Developed a deep learning model using Convolutional Neural Networks to classify images into multiple categories.",
@@ -162,7 +165,7 @@ const ProjectsSection = () => {
         "Visualized learning metrics and confusion matrix for performance evaluation.",
       ],
       technologies: ["Python", "TensorFlow", "Keras", "CNN", "OpenCV"],
-      github: "https://github.com",
+      github: "https://github.com/dvarunmudiraj/",
     }
   ];
 
