@@ -20,7 +20,7 @@ const Footer = () => {
           
           <div className="mt-4 md:mt-0 flex items-center space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/dvarunmudiraj" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-neon-purple transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/d-varun-url" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-neon-blue transition-colors"
