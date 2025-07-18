@@ -67,6 +67,11 @@ const ResumeSection = () => {
               <div className="relative border-l-2 border-neon-purple/30 pl-6 pb-6">
                 {[
                   {
+                    title: "Scalable URL Shortener with Analytics",
+                    role: "Full Stack Dev",
+                    period: "JUL 2025"
+                  },
+                  {
                     title: "Portable Object Detection in Real-Time",
                     role: "BackEnd Dev",
                     period: "DEC 2024 - FEB 2025"
@@ -77,14 +82,14 @@ const ResumeSection = () => {
                     period: "SEP 2024 - NOV 2024"
                   },
                   {
-                    title: "Task Scheduling Application",
-                    role: "Full Stack Dev",
-                    period: "JUN 2024 - JUL 2024"
-                  },
-                  {
                     title: "Image Classification Using CNN",
                     role: "BackEnd Dev",
                     period: "JUN 2024 - JUL 2024"
+                  },
+                  {
+                    title: "Task Scheduling Application",
+                    role: "Full Stack Dev",
+                    period: "MAY 2024"
                   }
                 ].map((item, index) => (
                   <div key={index} className="mb-6 relative">
