@@ -45,7 +45,7 @@ const Navbar = () => {
           
           <div className="flex items-center ml-4 space-x-2">
             <a 
-              href="https://github.com" 
+              href="https://github.com/dvarunmudiraj/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:text-neon-blue transition-colors"
@@ -53,7 +53,7 @@ const Navbar = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/d-varun-url" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-white hover:text-neon-blue transition-colors"
