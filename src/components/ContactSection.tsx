@@ -81,8 +81,8 @@ const ContactSection = () => {
                     <Mail className="text-neon-purple mr-3 mt-1" size={20} />
                     <div>
                       <p className="text-sm text-gray-400">Email</p>
-                      <a href="mailto:varunmudraj154@gmail.com" className="text-white hover:text-neon-purple transition-colors">
-                        varunmudiraj154@gmail.com
+                      <a href="mailto:dvarun.mudiraj@gmail.com" className="text-white hover:text-neon-purple transition-colors">
+                        dvarun.mudiraj@gmail.com
                       </a>
                     </div>
                   </div>
