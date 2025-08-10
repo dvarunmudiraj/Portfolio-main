@@ -49,7 +49,7 @@ const AboutSection = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <div>
                   <p className="text-gray-400 mb-1">Email:</p>
-                  <p className="text-neon-blue">varunmudraj154@gmail.com</p>
+                  <p className="text-neon-blue">dvarun.mudiraj@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-gray-400 mb-1">Phone:</p>
